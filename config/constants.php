@@ -1,6 +1,6 @@
 <?php
 //start the session
-    session_start();
+    // session_start();
 //constants
     define('SITEURL', 'http://localhost/Banjo-Bob/');
 //variables
