@@ -58,7 +58,39 @@
     <!-- Navbar Section End -->
     <!-- Body Section Start -->
     <main class="container">
-        i am the bodys
+
+
+        <!-- Contact Form Start -->
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+                <label class="" for="formInputEmail">Email</label>
+                <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="email" class="form-control" id="formInputEmail" placeholder="youremail@email.com">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label class="" for="formInputSubject">Subject</label>
+                <div class="input-group">
+                    <div class="input-group-text">Re:</div>
+                    <input type="text" class="form-control" id="formInputSubject" placeholder="I would like a banjo lesson pretty please">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="input-group">
+                    <span class="input-group-text">Your Message</span>
+                    <textarea class="form-control" aria-label="Your Message"></textarea>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        <!-- Contact Form End -->
     </main>
     <!-- Body Section Start -->
     <!-- Footer Section Start -->
@@ -74,7 +106,7 @@
             </ul>
             <p class="text-center text-muted">
                 <?php
-                    echo "Copyright © " . $company_name . " " .
+                echo "Copyright © " . $company_name . " " .
                     date("Y") . " - All Rights Reserved";
                 ?>
             </p>
