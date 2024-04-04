@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="#" alt="Banjo Bob logo" />
     <title>Banjo Bob</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./Banjo-Bob/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
 <body>
@@ -59,11 +59,11 @@
     <!-- Body Section Start -->
 
     <!-- Jumbotron Section Start -->
-    <div class="bg-light p-5 rounded-lg m-3 d-flex justify-content-between">
-        <div>
-            <img src="..." alt="Banjo Bob Playing the Banjo" />
+    <div class="bg-light rounded-lg m-3 p-5 d-flex justify-content-between">
+        <div class="h-100">
+            <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
         </div>
-        <div>
+        <div class="h-100">
             <h1 class="display-4">Over 50 Years of Banjo</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
@@ -76,9 +76,9 @@
     <main class="container">
         <!-- Testimonies Section Start -->
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card">
+            <div class="row gy-2">
+                <div class="col-md-4">
+                    <div class="card h-100">
                         <div class="card-header">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
                                 <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
@@ -93,8 +93,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
+                <div class="col-md-4">
+                    <div class="card h-100">
                         <div class="card-header">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
                                 <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
@@ -108,8 +108,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
+                <div class="col-md-4">
+                    <div class="card h-100">
                         <div class="card-header">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
                                 <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
