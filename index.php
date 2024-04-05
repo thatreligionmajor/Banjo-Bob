@@ -65,9 +65,13 @@
         </div>
         <div class="h-100">
             <h1 class="display-4">Over 50 Years of Banjo</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p class="lead text-primary">banjo luthier, player, & performer</p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p>
+                I'm a banjo teacher, maker, player, and performer who loves to share my passion.
+                <br/>
+                I've played banjo ever since I was X years old. I played my way through Ireland in my youth, and have more than just a steel banjo to prove it.
+            </p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
     </div>
