@@ -10,18 +10,18 @@
                 <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
             <div class="h-100 p-5 col-9">
-                <h1 class="display-4">Over 50 Years of Banjo</h1>
-                <p class="lead text-primary">banjo luthier, player, & performer</p>
+                <h1 class="display-4">Banjo Lessons with Bob</h1>
+                <p class="lead text-primary">learn to play the banjo with a master</p>
                 <hr class="my-4">
                 <p class="pb-3">
-                    <?php echo $your_jumbotron ?>
+                Are you ready to embark on a musical journey with one of the most experienced banjo players around? Bob offers personalized banjo lessons for players of all levels, from beginners to advanced musicians.
                 </p>
-                <a class="btn btn-primary btn-lg" href="<?php echo SITEURL; ?>/pages/about.php" role="button">Learn more</a>
             </div>
         </div> 
     </div>
     <!-- Jumbotron Section End -->
-</div
+</div>
+
 <!-- Footer Section Start -->
 <?php include('../components/footer.php'); ?>
 <!-- Footer Section End -->
