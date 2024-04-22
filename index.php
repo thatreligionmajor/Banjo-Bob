@@ -1,88 +1,36 @@
-<!-- Navbar Section Start -->
-<!DOCTYPE html>
-<html lang="en">
+<?php include ('./components/navbar.php'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="#" alt="Banjo Bob logo" />
-    <title>Banjo Bob</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-</head>
-
-<body>
-
-    <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/Banjo-Bob/config/constants.php');
-    ?>
-
-    <!-- Navbar Section Start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand " href="/#">
-                <img class="ms-2" src="data:image/png;base64,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">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <?php echo $company_name; ?>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./pages/listen.php">Listen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Lessons</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
-                    </li>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar Section End -->
     <!-- Body Section Start -->
 
     <!-- Jumbotron Section Start -->
     <!-- container fluid -->
     <div class="container-fluid mx-0 p-0 bg-light rounded-lg m-3 d-flex justify-content-between">
-        <div class="h-100">
-            <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
-        </div>
-        <div class="h-100 p-5">
-            <h1 class="display-4">Over 50 Years of Banjo</h1>
-            <p class="lead text-primary">banjo luthier, player, & performer</p>
-            <hr class="my-4">
-            <p class="pb-3">
-                <?php echo $your_jumbotron ?>
-            </p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </div>
+        <div class="row">
+            <div class="h-100 py-5 col-3">
+                <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
+            </div>
+            <div class="h-100 p-5 col-9">
+                <h1 class="display-4">Over 50 Years of Banjo</h1>
+                <p class="lead text-primary">banjo luthier, player, & performer</p>
+                <hr class="my-4">
+                <p class="pb-3">
+                    <?php echo $your_bio ?>
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div>
+        </div> 
     </div>
     <!-- Jumbotron Section End -->
 
     <!-- Bio Section Start -->
+
     <!-- Bio Section End -->
 
     <!-- -->
     <!-- -->
 
     <main class="container">
+
         <!-- Testimonies Section Start -->
         <div class="container p-5">
             <div class="row"> 
@@ -98,7 +46,7 @@
                         </div>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
-                                <p>If you are wanting to get an immersive experience in learning Banjo, working with Bob Baily is a great
+                                <p>If you are wanting to get an immersive experience in learning Banjo, working with Bob Bailey is a great
                                     way to start!</p>
                                 <footer class="blockquote-footer">Glenn D.</footer>
                             </blockquote>
@@ -141,7 +89,7 @@
 
 
         <!-- Contact Information Start -->
-        <div class="container-fluid bg-light p-5">
+        <div class="container-fluid bg-light rounded p-5">
             <div class="row">
                 <h2 class="p-5 text-center">Contact Information</h2>            
             </div>
@@ -158,7 +106,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill m-1" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
                         </svg>
-                        <h5>+1 (123) 456-7890</h5>
+                        <h5><?php echo $company_number; ?></h5>
                     </div>
                     <div class="list-group-item d-flex w-100 justify-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill m-1" viewBox="0 0 16 16">
@@ -197,7 +145,7 @@
                 <div class="col-10">
                     <div class="input-group d-flex">
                         <span class="input-group-text">Your Message</span>
-                        <textarea class="form-control" aria-label="Your Message"></textarea>
+                        <textarea class="form-control" aria-label="Your Message" placeholder="Howdy Bob, I would love to learn the banjo, let's talk about how cool it is!"></textarea>
                     </div>
                 </div>
                 </div>
@@ -208,29 +156,8 @@
             </form>
         </div>
         <!-- Contact Form End -->
-    </main>
-    <!-- Body Section Start -->
-    <!-- Footer Section Start -->
-    <div class="container">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Listen</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Lessons</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Testimonials</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
-            </ul>
-            <p class="text-center text-muted">
-                <?php
-                echo "Copyright © " . $company_name . " " .
-                    date("Y") . " - All Rights Reserved";
-                ?>
-            </p>
-        </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
 
-</html>
-<!-- Footer Section End -->
+    </main>
+    <!-- Body Section End -->
+   
+<?php include ('./components/footer.php'); ?>
