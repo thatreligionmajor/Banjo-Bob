@@ -14,7 +14,7 @@
                 <p class="lead text-primary">banjo luthier, player, & performer</p>
                 <hr class="my-4">
                 <p class="pb-3">
-                    <?php echo $your_bio ?>
+                    <?php echo $your_jumbotron ?>
                 </p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
             </div>
@@ -22,9 +22,6 @@
     </div>
     <!-- Jumbotron Section End -->
 
-    <!-- Bio Section Start -->
-
-    <!-- Bio Section End -->
 
     <!-- -->
     <!-- -->
