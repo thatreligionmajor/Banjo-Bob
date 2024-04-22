@@ -6,7 +6,7 @@
 
 <div>
      <!-- Contact Information Start -->
-     <div class="container-fluid bg-light rounded p-5">
+     <div class="container-fluid bg-light rounded p-5 m-3">
             <div class="row">
                 <h2 class="p-5 text-center">Contact Information</h2>            
             </div>
