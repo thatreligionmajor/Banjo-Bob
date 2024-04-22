@@ -5,7 +5,7 @@
 <!-- Testimonies Section Start -->
 <div class="container p-5">
             <div class="row"> 
-                <h2 class="p-5 text-center">Testimonies</h2>
+                <h1 class="p-5 text-center">What My Students Have to Say</h1>
             </div>
             <div class="row gy-2">
                 <div class="col-md-4">
