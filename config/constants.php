@@ -13,4 +13,11 @@
     Beyond playing and making banjos, I offer a unique service as a guide in your first banjo purchase. Whether you're exploring options on eBay, Craigslist, a music store, or even considering a bespoke creation from my workshop, I'll provide valuable insights to ensure your first banjo resonates with your musical aspirations.<br><br>
     <br>
     If you're passionate about keeping the banjo's heartbeat alive, I invite you to reach out. Let's connect, discuss your needs, and chart the course for your banjo journey. Feel free to drop me a personal message, and together, we can set the strings ringing to the tune of your musical ambitions.";
+
+    $your_jumbotron = "I'm a banjo teacher, maker, player, and performer who loves to share my passion.
+    <br/>
+    <br/>
+    I've played banjo ever since I was X years old. I played my way through Ireland in my youth, and have more than just a steel banjo to prove it."
+    
+    
     ?>

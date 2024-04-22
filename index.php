@@ -60,18 +60,16 @@
 
     <!-- Jumbotron Section Start -->
     <!-- container fluid -->
-    <div class="container-fluid mx-0 bg-light rounded-lg m-3 p-5 d-flex justify-content-between">
+    <div class="container-fluid mx-0 p-0 bg-light rounded-lg m-3 d-flex justify-content-between">
         <div class="h-100">
             <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
         </div>
-        <div class="h-100">
+        <div class="h-100 p-5">
             <h1 class="display-4">Over 50 Years of Banjo</h1>
             <p class="lead text-primary">banjo luthier, player, & performer</p>
             <hr class="my-4">
-            <p>
-                I'm a banjo teacher, maker, player, and performer who loves to share my passion.
-                <br/>
-                I've played banjo ever since I was X years old. I played my way through Ireland in my youth, and have more than just a steel banjo to prove it.
+            <p class="pb-3">
+                <?php echo $your_jumbotron ?>
             </p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
         </div>
@@ -149,7 +147,7 @@
             </div>
             <div class="row">
                 <div class="col-2"></div>
-                <div class="col-8 list-group list-group-flush">
+                <div class="col-md-8 list-group list-group-flush">
                     <div class="list-group-item d-flex w-100 justify-content-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill m-1" viewBox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
