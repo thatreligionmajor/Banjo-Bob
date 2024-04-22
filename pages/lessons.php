@@ -6,8 +6,8 @@
     <!-- Jumbotron Section Start -->
     <div class="container-fluid mx-0 p-0 bg-light rounded-lg m-3 d-flex justify-content-between">
         <div class="row">
-            <div class="h-100 py-5 col-3">
-                <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
+            <div class="h-100 p-5 col-3 d-flex align-items-center">
+                <img src="../images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
             <div class="h-100 p-5 col-9">
                 <h1 class="display-4">Banjo Lessons with Bob</h1>
@@ -16,6 +16,7 @@
                 <p class="pb-3">
                 Are you ready to embark on a musical journey with one of the most experienced banjo players around? Bob offers personalized banjo lessons for players of all levels, from beginners to advanced musicians.
                 </p>
+                <a class="btn btn-primary btn-lg" href="<?php echo SITEURL; ?>/pages/contact.php" role="button">Request a Lesson</a>
             </div>
         </div> 
     </div>

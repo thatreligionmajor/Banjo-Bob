@@ -38,7 +38,7 @@
         <!-- Contact Information End -->
 
         <!-- Contact Form Start -->
-        <div class="container p-5">
+        <div class="container-fluid bg-light rounded p-5 m-3">
             <div class="row">
                 <h2 class="col p-5 text-center">Hey, let's discuss something <span class="text-primary">cool</span>.</h2>
             </div>
@@ -65,11 +65,11 @@
                         <textarea class="form-control" aria-label="Your Message" placeholder="Howdy Bob, I would love to learn the banjo, let's talk about how cool it is!"></textarea>
                     </div>
                 </div>
-                </div>
-    
-                <div class="col-2 ms-auto">
+                
+                <div class="col-10 d-flex flex-row-reverse">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
+            </div>
             </form>
         </div>
         <!-- Contact Form End -->
