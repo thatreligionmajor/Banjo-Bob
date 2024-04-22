@@ -6,6 +6,8 @@
 <div class="container-fluid d-flex justify-content-center">
     <div class="row d-flex justify-content-center">
         <div class="col-10 p-5">
+
+        <!-- Carousel Start -->
             <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselSlide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,6 +34,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <!-- Carousel End -->
 
         </div>
     </div>
