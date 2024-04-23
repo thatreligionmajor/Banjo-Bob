@@ -62,7 +62,7 @@
                 <div class="col-10">
                     <div class="input-group d-flex">
                         <span class="input-group-text">Your Message</span>
-                        <textarea class="form-control" aria-label="Your Message" placeholder="Howdy Bob, I would love to learn the banjo, let's talk about how cool it is!"></textarea>
+                        <textarea class="form-control" aria-label="Your Message" placeholder="Howdy Bob, &#13;&#10;I would love to learn the banjo, let's talk about how cool it is!"></textarea>
                     </div>
                 </div>
                 
