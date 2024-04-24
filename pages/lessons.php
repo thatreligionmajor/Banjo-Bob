@@ -6,10 +6,10 @@
     <!-- Lessons Intro Start -->
     <div class="container-fluid bg-light p-5 m-3 rounded d-flex justify-content-between">
         <div class="row">
-            <div class="h-100 p-5 col-3 d-flex align-items-center">
+            <div class="h-100 p-5 col-4 d-flex align-items-center">
                 <img src="../images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
-            <div class="h-100 p-5 col-9">
+            <div class="h-100 p-5 col-7">
                 <h1>Banjo Lessons with Bob</h1>
                 <p class="lead text-primary">learn to play the banjo with a master</p>
                 <hr class="my-4">
