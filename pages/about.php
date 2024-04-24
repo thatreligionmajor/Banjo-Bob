@@ -6,13 +6,13 @@
 
 <!-- Jumbotron Section Start -->
     <!-- container fluid -->
-    <div class="container-fluid mx-0 p-0 bg-light rounded-lg m-3 d-flex justify-content-between">
+    <div class="container-fluid bg-light rounded p-5 m-3 d-flex justify-content-between">
         <div class="row">
             <div class="h-100 p-5 col-3 d-flex align-items-center">
                 <img src="../images/banjo-bob-1976.JPG" alt="Banjo Bob Playing the Banjo" class="img-fluid rounded" />
             </div>
             <div class="h-100 p-5 col-9">
-                <h1 class="display-4">Over 50 Years of Banjo</h1>
+                <h1>Over 50 Years of Banjo</h1>
                 <p class="lead text-primary">banjo luthier, player, & performer</p>
                 <hr class="my-4">
                 <p class="pb-3">

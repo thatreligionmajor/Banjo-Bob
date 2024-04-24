@@ -3,9 +3,11 @@
 <!-- Navbar Section End -->
 
 <!-- Testimonies Section Start -->
-<div class="container p-5">
+<div class="container bg-light p-5 my-3 rounded">
             <div class="row"> 
-                <h1 class="p-5 text-center">What My Students Have to Say</h1>
+                <div class="col">
+                    <h1 class="p-5 text-center">What My Students Have to Say</h1>
+                </div>
             </div>
             <div class="row gy-2">
                 <div class="col-md-4">
