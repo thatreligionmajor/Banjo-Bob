@@ -40,7 +40,7 @@
         <!-- Contact Form Start -->
         <div class="container-fluid bg-light rounded p-5 m-3">
             <div class="row">
-                <h2 class="col p-5 text-center">Hey, let's discuss something <span class="text-primary">cool</span>.</h2>
+                <h2 class="col p-5 text-center">Hey, let's discuss something <span class="text-success">cool</span>.</h2>
             </div>
             <form class="row row-cols-lg-auto g-3 justify-content-center">
                 <div class="col-10">
@@ -67,7 +67,7 @@
                 </div>
                 
                 <div class="col-10 d-flex flex-row-reverse">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
                 </div>
             </div>
             </form>

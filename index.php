@@ -10,12 +10,12 @@
             </div>
             <div class="h-100 p-5 col-9">
                 <h1 class="display-4">Over 50 Years of Banjo</h1>
-                <p class="lead text-primary">banjo luthier, player, & performer</p>
+                <p class="lead text-success">banjo luthier, player, & performer</p>
                 <hr class="my-4">
                 <p class="pb-3">
                     <?php echo $your_jumbotron ?>
                 </p>
-                <a class="btn btn-primary btn-lg" href="<?php echo SITEURL; ?>/pages/about.php" role="button">Learn more</a>
+                <a class="btn btn-success btn-lg" href="<?php echo SITEURL; ?>/pages/about.php" role="button">Learn more</a>
             </div>
         </div> 
     </div>
@@ -67,7 +67,7 @@
         <!-- Contact Form Start -->
         <div class="container p-5">
             <div class="row">
-                <h2 class="col p-5 text-center">Hey, let's discuss something <span class="text-primary">cool</span>.</h2>
+                <h2 class="col p-5 text-center">Hey, let's discuss something <span class="text-success">cool</span>.</h2>
             </div>
             <form class="row row-cols-lg-auto g-3 justify-content-center">
                 <div class="col-10">
@@ -95,7 +95,7 @@
                 </div>
     
                 <div class="col-2 ms-auto">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
                 </div>
             </form>
         </div>
