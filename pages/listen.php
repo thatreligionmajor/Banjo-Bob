@@ -3,11 +3,11 @@
 <!-- Navbar Section End -->
 
 <!-- Listen Page Start -->
-<div class="container bg-light p-5 my-3 rounded">
+<div class="container bg-dark p-5 my-3 rounded">
 
     <div class="container">
         <div clas="row">
-            <h1 class="pt-5 text-center">Listen</h1>
+            <h1 class="pt-5 text-center text-light">Listen</h1>
         </div>
     </div>
     <div class="container-fluid d-flex justify-content-center">    

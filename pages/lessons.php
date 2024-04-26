@@ -4,16 +4,16 @@
 
 <div>
     <!-- Lessons Intro Start -->
-    <div class="container-fluid bg-light p-5 m-3 rounded d-flex justify-content-between">
+    <div class="container-fluid bg-dark p-5 m-3 rounded d-flex justify-content-between">
         <div class="row">
             <div class="h-100 p-5 col-4 d-flex align-items-center">
                 <img src="../images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
             <div class="h-100 p-5 col-7">
-                <h1>Banjo Lessons with Bob</h1>
+                <h1 class="text-light">Banjo Lessons with Bob</h1>
                 <p class="lead text-success">learn to play the banjo with a master</p>
-                <hr class="my-4">
-                <p class="pb-3">
+                <hr class="my-4 text-light">
+                <p class="pb-3 text-light">
                     Are you ready to embark on a musical journey with one of the most experienced banjo players around? Bob offers personalized banjo lessons for players of all levels, from beginners to advanced musicians.
                 </p>
                 <a class="btn btn-success btn-lg" href="<?php echo SITEURL; ?>/pages/contact.php" role="button">Request a Lesson</a>
@@ -23,9 +23,9 @@
     <!-- Lessons Intro End -->
 
     <!-- Lessons Why Start -->
-    <div class="container-fluid bg-light rounded p-5 m-3">
+    <div class="container-fluid bg-dark rounded p-5 m-3">
         <div class="row">
-            <h2 class="p-5 text-center">Why Choose Bob's Banjo Lessons?</h2>
+            <h2 class="p-5 text-center text-light">Why Choose Bob's Banjo Lessons?</h2>
         </div>
         <div class="row">
             <div class="col-md-5 mx-auto">
@@ -81,9 +81,9 @@
     <!-- Lessons Why End -->
 
     <!-- Lessons Options Start -->
-    <div class="container-fluid bg-light rounded p-5 m-3">
+    <div class="container-fluid bg-dark rounded p-5 m-3">
         <div class="row">
-            <h2 class="p-5 text-center">Lesson Options</h2>
+            <h2 class="p-5 text-center text-light">Lesson Options</h2>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -135,12 +135,12 @@
     <!-- Lessons Options End -->
 
     <!-- Lessions Call to Action Start -->
-    <div class="container-fluid bg-light rounded p-5 m-3">
+    <div class="container-fluid bg-dark rounded p-5 m-3">
         <div class="row">
-            <h2 class="p-5 text-center">Schedule Your Lesson Today!</h2>
+            <h2 class="p-5 text-center text-light">Schedule Your Lesson Today!</h2>
         </div>
         <div class="row">
-            <div class="col-md-5 mx-auto">
+            <div class="col-md-5 mx-auto text-light">
                 <p>Ready to start your banjo journey or take your playing to the next level? Contact Bob today to schedule your personalized banjo lesson. Whether you're looking for a fun hobby or aiming to become a professional banjo player, Bob has the experience and passion to help you achieve your musical goals.</p>
             </div>
         </div>

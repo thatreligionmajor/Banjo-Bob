@@ -3,16 +3,16 @@
     <!-- Body Section Start -->
 
     <!-- Jumbotron Section Start -->
-    <div class="container-fluid mx-0 p-0 bg-light rounded-lg m-3 d-flex justify-content-between">
+    <div class="container-fluid mx-0 p-0 bg-dark rounded-lg m-3 d-flex justify-content-between">
         <div class="row">
             <div class="h-100 py-5 col-3">
                 <img src="images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
             <div class="h-100 p-5 col-9">
-                <h1 class="display-4">Over 50 Years of Banjo</h1>
+                <h1 class="text-light display-4">Over 50 Years of Banjo</h1>
                 <p class="lead text-success">banjo luthier, player, & performer</p>
-                <hr class="my-4">
-                <p class="pb-3">
+                <hr class="text-light my-4">
+                <p class="text-light pb-3">
                     <?php echo $your_jumbotron ?>
                 </p>
                 <a class="btn btn-success btn-lg" href="<?php echo SITEURL; ?>/pages/about.php" role="button">Learn more</a>
@@ -33,9 +33,9 @@
 
 
         <!-- Contact Information Start -->
-        <div class="container-fluid bg-light rounded p-5">
+        <div class="container-fluid bg-dark rounded p-5">
             <div class="row">
-                <h2 class="p-5 text-center">Contact Information</h2>            
+                <h2 class="text-light p-5 text-center">Contact Information</h2>            
             </div>
             <div class="row">
                 <div class="col-2"></div>
