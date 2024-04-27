@@ -15,10 +15,12 @@
     <!-- <link rel="stylesheet" type="text/css" href="../Banjo-Bob/css/main.css" />
     <script src="../Banjo-Bob/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
 
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
+
 </head>
 
-<body class="">
+<body class="bg-black">
 
     <?php
     include($_SERVER['DOCUMENT_ROOT'] . '/Banjo-Bob/config/constants.php');
