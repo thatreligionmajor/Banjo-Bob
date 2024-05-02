@@ -13,7 +13,7 @@
             </div>
             <div class="h-100 p-5 col-9">
                 <h1 class="text-light">Over 50 Years of Banjo</h1>
-                <h6 class="text-success">banjo luthier, player, & performer</h6>
+                <h5 class="text-success">banjo luthier, player, & performer</h5>
                 <hr class="text-light my-4">
                 <p class="text-light pb-3">
                     <?php echo $your_bio ?>
