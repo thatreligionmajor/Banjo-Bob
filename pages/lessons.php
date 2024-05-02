@@ -11,7 +11,7 @@
             </div>
             <div class="h-100 p-5 col-7">
                 <h1 class="text-light">Banjo Lessons with Bob</h1>
-                <p class="lead text-success">learn to play the banjo with a master</p>
+                <p class=" text-success">learn to play the banjo with a master</p>
                 <hr class="my-4 text-light">
                 <p class="pb-3 text-light">
                     Are you ready to embark on a musical journey with one of the most experienced banjo players around? Bob offers personalized banjo lessons for players of all levels, from beginners to advanced musicians.
@@ -142,6 +142,7 @@
         <div class="row">
             <div class="col-md-5 mx-auto text-light">
                 <p>Ready to start your banjo journey or take your playing to the next level? Contact Bob today to schedule your personalized banjo lesson. Whether you're looking for a fun hobby or aiming to become a professional banjo player, Bob has the experience and passion to help you achieve your musical goals.</p>
+                <a class="btn btn-success btn-lg" href="<?php echo SITEURL; ?>/pages/contact.php" role="button">Request a Lesson</a>
             </div>
         </div>
     </div>

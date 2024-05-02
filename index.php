@@ -10,7 +10,7 @@
             </div>
             <div class="h-100 p-5 col-9">
                 <h1 class="text-light display-4">Over 50 Years of Banjo</h1>
-                <p class="lead text-success">banjo luthier, player, & performer</p>
+                <h5 class="text-success">banjo luthier, player, & performer</h5>
                 <hr class="text-light my-4">
                 <p class="text-light pb-3">
                     <?php echo $your_jumbotron ?>
