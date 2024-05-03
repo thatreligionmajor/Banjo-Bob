@@ -12,6 +12,8 @@ $message = $_POST['message'];
 // use PHPMailer\PHPMailer\SMTP;
 
 // $mail = new PHPMailer(true);
+
+//leave this commented out if you aren't actively debugging
 // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 // $mail->isSMTP();
