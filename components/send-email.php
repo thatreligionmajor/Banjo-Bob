@@ -12,6 +12,7 @@ $message = $_POST['message'];
 // use PHPMailer\PHPMailer\SMTP;
 
 // $mail = new PHPMailer(true);
+// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
 // $mail->isSMTP();
 // $mail->SMTPAuth = true;
@@ -27,7 +28,8 @@ $message = $_POST['message'];
 // $mail->setForm($email, $name);
 // $mail->addAddress("YourEmail@email.com", "YourName");
 
-//
+// $mail->send();
+echo "Email sent successfully";
 
 ?>
 
