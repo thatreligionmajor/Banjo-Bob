@@ -24,9 +24,10 @@ $message = $_POST['message'];
 // $mail->Username = "you@example.com";
 // $mail->Password = "mypassword";
 
-//
-//
+// $mail->setForm($email, $name);
+// $mail->addAddress("YourEmail@email.com", "YourName");
 
+//
 
 ?>
 
