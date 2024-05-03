@@ -33,6 +33,9 @@ $message = $_POST['message'];
 // $mail->send();
 echo "Email sent successfully";
 
+//to redirect
+// header("Location:")
+
 ?>
 
 <!-- To Do: -->
