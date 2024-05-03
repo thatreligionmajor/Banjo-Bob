@@ -45,19 +45,19 @@
                 </ul>
                 <ul class="navbar-nav me-2 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo SITEURL;?>/pages/listen.php">Listen</a>
+                        <a class="nav-link active" href="<?php echo SITEURL;?>pages/listen.php">Listen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo SITEURL;?>/pages/lessons.php">Lessons</a>
+                        <a class="nav-link active" href="<?php echo SITEURL;?>pages/lessons.php">Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo SITEURL;?>/pages/about.php">About</a>
+                        <a class="nav-link active" href="<?php echo SITEURL;?>pages/about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo SITEURL;?>/pages/testimonials.php">Testimonials</a>
+                        <a class="nav-link active" href="<?php echo SITEURL;?>pages/testimonials.php">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="<?php echo SITEURL;?>/pages/contact.php">Contact</a>
+                        <a class="nav-link active" href="<?php echo SITEURL;?>pages/contact.php">Contact</a>
                     </li>
                     </li>
                 </ul>

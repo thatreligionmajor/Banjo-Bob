@@ -38,40 +38,7 @@
         <!-- Contact Information End -->
 
         <!-- Contact Form Start -->
-        <div class="container-fluid bg-dark rounded p-5 m-3">
-            <div class="row">
-                <h2 class="col p-5 text-center text-light">Hey, let's discuss something <span class="text-success">cool</span>.</h2>
-            </div>
-            <form class="row row-cols-lg-auto g-3 justify-content-center">
-                <div class="col-10">
-                    <label class="text-light" for="formInputEmail">Email</label>
-                    <div class="input-group d-flex">
-                        <div class="input-group-text">@</div>
-                        <input type="email" class="form-control" id="formInputEmail" placeholder="youremail@email.com">
-                    </div>
-                </div>
-    
-                <div class="col-10">
-                    <label class="text-light" for="formInputSubject">Subject</label>
-                    <div class="input-group d-flex">
-                        <div class="input-group-text">Re:</div>
-                        <input type="text" class="form-control" id="formInputSubject" placeholder="It's my dream to play the banjo.">
-                    </div>
-                </div>
-    
-                <div class="col-10">
-                    <div class="input-group d-flex">
-                        <span class="input-group-text ">Your Message</span>
-                        <textarea class="form-control" aria-label="Your Message" placeholder="Howdy Bob, &#13;&#10;I would love to learn the banjo, let's talk about how cool it is!"></textarea>
-                    </div>
-                </div>
-                
-                <div class="col-10 d-flex flex-row-reverse">
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </div>
-            </div>
-            </form>
-        </div>
+        <?php include ('../components/contact-form.php'); ?>
         <!-- Contact Form End -->
 </div>
 
