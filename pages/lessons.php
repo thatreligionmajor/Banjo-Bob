@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-5 mx-auto">
                 <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                    <li class="list-group-item list-group-item-dark d-flex justify-content-start align-items-center">
                         <div class="bg-success text-white p-3 me-3 rounded">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z" />
@@ -41,7 +41,7 @@
                             With over 50 years of banjo playing under his belt, Bob brings a wealth of knowledge and expertise to each lesson.
                         </div>
                     </li>
-                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                    <li class="list-group-item list-group-item-dark d-flex justify-content-start align-items-center">
                         <div class="bg-success text-white p-3 me-3 rounded">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z" />
@@ -52,7 +52,7 @@
                             Bob tailors each lesson to the individual student, ensuring that you learn at your own pace and focus on the aspects of banjo playing that interest you the most.
                         </div>
                     </li>
-                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                    <li class="list-group-item list-group-item-dark d-flex justify-content-start align-items-center">
                         <div class="bg-success text-white p-3 me-3 rounded">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-3-circle-fill" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z" />
@@ -63,7 +63,7 @@
                             Whether you're a busy professional or a student with a hectic schedule, Bob offers flexible lesson times to accommodate your needs.
                         </div>
                     </li>
-                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                    <li class="list-group-item list-group-item-dark d-flex justify-content-start align-items-center">
                         <div class="bg-success text-white p-3 me-3 rounded">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-4-circle-fill" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M7.519 5.057c-.886 1.418-1.772 2.838-2.542 4.265v1.12H8.85V12h1.26v-1.559h1.007V9.334H10.11V4.002H8.176zM6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218" />
@@ -87,7 +87,7 @@
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 bg-light">
                     <div class="bg-success text-white p-3 mb-3 text-center rounded-top">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 bg-light">
                     <div class="bg-success text-white p-3 mb-3 text-center rounded-top">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
                             <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2" />
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 bg-light">
                     <div class="bg-success text-white p-3 mb-3 text-center rounded-top">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
                             <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2" />
