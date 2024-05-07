@@ -5,9 +5,8 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-//install composer
-//uncomment the following after installing php mailer https://www.youtube.com/watch?v=fIYyemqKR58 4:00
-// require "vendor/autoload.php";
+// https://www.youtube.com/watch?v=fIYyemqKR58 4:00
+require "vendor/autoload.php";
 
 // use PHPMailer\PHPMailer\PHPMailer;
 // use PHPMailer\PHPMailer\SMTP;
