@@ -11,24 +11,24 @@ require "vendor/autoload.php";
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
-// $mail = new PHPMailer(true);
+$mail = new PHPMailer(true);
 
 //leave this commented out if you aren't actively debugging
 // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
 
-// $mail->isSMTP();
-// $mail->SMTPAuth = true;
+$mail->isSMTP();
+$mail->SMTPAuth = true;
 
 //insert host name of the SMTP server :
 // $mail->Host = "smtp.example.com";
 // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 // $mail->Port = 587;
 
-// $mail->Username = "you@example.com";
+// $mail->Username = "theresa.barkasy@gmail.com";
 // $mail->Password = "mypassword";
 
 // $mail->setForm($email, $name);
-// $mail->addAddress("YourEmail@email.com", "YourName");
+$mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
 
 // $mail->send();
 echo "Email sent successfully";
