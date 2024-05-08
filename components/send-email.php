@@ -8,8 +8,8 @@ $message = $_POST['message'];
 // https://www.youtube.com/watch?v=fIYyemqKR58 4:00
 require "vendor/autoload.php";
 
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 
 // $mail = new PHPMailer(true);
 
