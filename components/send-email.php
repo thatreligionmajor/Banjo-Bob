@@ -20,9 +20,9 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;
 
 //insert host name of the SMTP server :
-// $mail->Host = "smtp.example.com";
-// $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-// $mail->Port = 587;
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->Port = 587;
 
 // $mail->Username = "theresa.barkasy@gmail.com";
 // $mail->Password = "mypassword";
