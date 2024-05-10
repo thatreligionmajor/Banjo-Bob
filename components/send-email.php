@@ -28,7 +28,7 @@ $mail->Port = 587;
 $mail->Username = "theresa.barkasy@gmail.com";
 // $mail->Password = "mypassword";
 
-// $mail->setForm($email, $name);
+$mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
 
 // $mail->send();
