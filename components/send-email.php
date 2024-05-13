@@ -26,7 +26,7 @@ $mail->Port = 465;
 
 //use the values from your own SMTP server
 $mail->Username = "theresa.barkasy@gmail.com";
-$mail->Password = "doap jcmd ieer ipxf";
+$mail->Password = "password";
 
 $mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
