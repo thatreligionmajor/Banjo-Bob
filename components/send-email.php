@@ -22,11 +22,11 @@ $mail->SMTPAuth = true;
 //insert host name of the SMTP server :
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->Port = 465;
 
 //use the values from your own SMTP server
 $mail->Username = "theresa.barkasy@gmail.com";
-// $mail->Password = "mypassword";
+$mail->Password = "doap jcmd ieer ipxf";
 
 $mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
