@@ -3,7 +3,7 @@
             <div class="row">
                 <h2 class="col p-5 text-center text-light">Hey, let's discuss something <span class="text-success">cool</span>.</h2>
             </div>
-            <form method="POST" action="./send-email.php" class="row row-cols-lg-auto g-3 justify-content-center">
+            <form method="POST" action="/Banjo-Bob/components/send-email.php" class="row row-cols-lg-auto g-3 justify-content-center">
                  <div class="col-10">
                     <label class="text-light" for="name">Name</label>
                     <div class="input-group d-flex">
