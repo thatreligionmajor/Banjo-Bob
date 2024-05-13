@@ -31,7 +31,7 @@ $mail->Username = "theresa.barkasy@gmail.com";
 $mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
 
-// $mail->send();
+$mail->send();
 echo "Email sent successfully";
 
 //to redirect
