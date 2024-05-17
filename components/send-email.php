@@ -1,12 +1,32 @@
 <?php
 
+require_once (__DIR__ . "/../vendor/autoload.php");
+
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable(__DIR__ . "/../config");
+$dotenv->load();
+
+// Debugging
+$smtpPassword = getenv("SMTP_PASSWORD");
+// if ($smtpPassword === false) {
+//     die('.env file is not loaded correctly');
+// }
+
+var_dump($smtpPassword);
+exit; // Exit after dumping the variable to prevent further script execution
+
+?>
+
+<?php
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-// https://www.youtube.com/watch?v=fIYyemqKR58 4:00
-require "vendor/autoload.php";
+// https://www.youtube.com/watch?v=fIYyemqKR58
+require "../vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -22,20 +42,30 @@ $mail->SMTPAuth = true;
 //insert host name of the SMTP server :
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 465;
+$mail->Port = 587; //465 //80?
 
 //use the values from your own SMTP server
 $mail->Username = "theresa.barkasy@gmail.com";
-$mail->Password = "password";
+$mail->Password = getenv("SMTP_PASSWORD");
 
 $mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
 
-$mail->send();
-echo "Email sent successfully";
+$mail->isHTML(true); // set email format to HTML
+$mail->Subject = $subject;
+$mail->Body    = $message;
+$mail->AltBody = strip_tags($message); // strip HTML tags for plain text
+
+if ($mail->send()) {
+    // echo "Email sent successfully";
+    header("Location: http://localhost/Banjo-Bob/");
+    exit();
+} else {
+    echo "Email could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
 
 //to redirect
-// header("Location:")
+// header("Location: index.php");
 
 ?>
 
