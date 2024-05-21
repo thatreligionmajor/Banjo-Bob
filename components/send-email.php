@@ -8,7 +8,7 @@ $dotenv = Dotenv::createImmutable(__DIR__ . "/../config/");
 $dotenv->load();
 
 // Debugging
-$smtpPassword = $_ENV['SMTP_PASSWORD'];
+// $smtpPassword = $_ENV['SMTP_PASSWORD'];
 // if ($smtpPassword === false) {
 //     die('.env file is not set/loaded correctly');
 // } else {
@@ -48,7 +48,7 @@ $mail->Port = 587; //465 //80?
 
 //use the values from your own SMTP server
 $mail->Username = "theresa.barkasy@gmail.com";
-$mail->Password = getenv("SMTP_PASSWORD");
+$mail->Password = $_ENV['SMTP_PASSWORD'];
 
 $mail->setFrom($email, $name);
 $mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
