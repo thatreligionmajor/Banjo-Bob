@@ -4,17 +4,19 @@ require_once (__DIR__ . "/../vendor/autoload.php");
 
 use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable(__DIR__ . "/../config");
+$dotenv = Dotenv::createImmutable(__DIR__ . "/../config/");
 $dotenv->load();
 
 // Debugging
-$smtpPassword = getenv("SMTP_PASSWORD");
+$smtpPassword = $_ENV['SMTP_PASSWORD'];
 // if ($smtpPassword === false) {
-//     die('.env file is not loaded correctly');
+//     die('.env file is not set/loaded correctly');
+// } else {
+//     echo "SMTP Password: " . $smtpPassword;
 // }
 
-var_dump($smtpPassword);
-exit; // Exit after dumping the variable to prevent further script execution
+// var_dump($smtpPassword);
+// exit; // Exit after dumping the variable to prevent further script execution
 
 ?>
 
