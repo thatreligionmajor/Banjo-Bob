@@ -27,7 +27,6 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-// https://www.youtube.com/watch?v=fIYyemqKR58
 require "../vendor/autoload.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -47,7 +46,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587; //465 //80?
 
 //use the values from your own SMTP server
-$mail->Username = "theresa.barkasy@gmail.com";
+$mail->Username = "theresa.barkasy@gmail.com"; //change to .env variable
 $mail->Password = $_ENV['SMTP_PASSWORD'];
 
 $mail->setFrom($email, $name);
