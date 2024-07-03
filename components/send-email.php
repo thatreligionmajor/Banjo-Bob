@@ -46,11 +46,12 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587; //465 //80?
 
 //use the values from your own SMTP server
-$mail->Username = "theresa.barkasy@gmail.com"; //change to .env variable
+$mail->Username = $_ENV['SMTP_EMAIL'];
+// "theresa.barkasy@gmail.com"; //change to .env variable
 $mail->Password = $_ENV['SMTP_PASSWORD'];
 
 $mail->setFrom($email, $name);
-$mail->addAddress("theresa.barkasy@gmail.com", "Captain Banjo Bob");
+$mail->addAddress($_ENV['SMTP_EMAIL'], "Captain Banjo Bob");
 
 $mail->isHTML(true); // set email format to HTML
 $mail->Subject = $subject;
