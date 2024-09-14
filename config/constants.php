@@ -2,7 +2,7 @@
 //start the session
     // session_start();
 //constants
-    define('SITEURL', 'http://localhost/Banjo-Bob/');
+    define('SITEURL', 'https://captain-banjo-bob-e278465cf00b.herokuapp.com/');  // http://localhost/Banjo-Bob/
 //variables
     $company_name = "Banjo Bob";
     $tagline = "Over 50 Years of Banjo";
