@@ -19,16 +19,51 @@
   }
 
 /* About */
-.scroll {
-  position: relative;
-  display: flex;
-  width: 700px;
-  overflow: hidden;
-  /* -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%,#fff 80%, transparent) */
+@keyframes slide {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-100%)
+  }
 }
 
-.scroll div {
+.images {
+  overflow: hidden;
   white-space: nowrap;
+  position: relative;
+}
+
+.images:before, .logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.images:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255, 0), #f2f2f2);
+}
+
+.images:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255, 0), white);
+}
+
+.image-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.image-slide img {
+  height: 350px;
+  width: 300px;
+  border-radius: 40px;
+  object-fit: cover;
+  margin: 0 20px;
 }
 
 /* Testimonials */
