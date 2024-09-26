@@ -45,12 +45,12 @@
 
 .images:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255,255,255, 0), #f2f2f2);
+  background: linear-gradient(to right, rgba(255,255,255, 0), #f2f2f2);
 }
 
 .images:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255,255,255, 0), white);
+  background: linear-gradient(to left, rgba(255,255,255, 0), white);
 }
 
 .image-slide {
