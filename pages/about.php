@@ -24,6 +24,10 @@
     </div>
     <!-- Jumbotron Section End -->
 
+    <!-- Image Marquee Section Start -->
+    <?php # include('../components/image-marquee.php'); ?>
+    <!-- Image Marquee Section End -->
+
 <!-- About Body Section End -->
 
 <!-- Footer Section Start -->

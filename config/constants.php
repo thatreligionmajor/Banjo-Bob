@@ -8,6 +8,7 @@
     $tagline = "Over 50 Years of Banjo";
     $your_name = "Banjo Bob";
     $company_number = "+1 (941) 356-5328";
+    $company_email = "";
 
     $facebook_bio = "I'm offering 5 string banjo lessons for kids and adults at $25 for 1/2hour and $40 an hour. I have 50 years experience in bluegrass banjo picking and also play old-time clawhammer style. Let's get you started keeping an Americana music tradition alive and intact. 
     <br/>
