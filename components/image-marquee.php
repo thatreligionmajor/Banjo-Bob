@@ -5,18 +5,18 @@
                     <div class="images">
                         <div class="image-slide">
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 1" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 2" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 3" class="img-thumbnail">
+                            <img src="../images/banjo-bob-1976.JPG" alt="Banjo Bob 1976" class="img-thumbnail">
+                            <img src="../images/banjo-bob-2024.JPG" alt="Banjo Bob 2024" class="img-thumbnail">
                         </div>
                         <div class="image-slide">
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 1" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 2" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 3" class="img-thumbnail">
+                            <img src="../images/banjo-bob-1976.JPG" alt="Banjo Bob 1976" class="img-thumbnail">
+                            <img src="../images/banjo-bob-2024.JPG" alt="Banjo Bob 2024" class="img-thumbnail">
                         </div>
                         <div class="image-slide">
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 1" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 2" class="img-thumbnail">
-                            <img src="../images/banjo-bob-1976.JPG" alt="Image 3" class="img-thumbnail">
+                            <img src="../images/banjo-bob-1976.JPG" alt="Banjo Bob 1976" class="img-thumbnail">
+                            <img src="../images/banjo-bob-2024.JPG" alt="Banjo Bob 2024" class="img-thumbnail">
                         </div>
                     </div>
                 </div>
