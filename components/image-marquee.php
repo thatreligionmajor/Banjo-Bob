@@ -18,7 +18,6 @@
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 2" class="img-thumbnail">
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 3" class="img-thumbnail">
                         </div>
-                        // repeat the same div and images here
                     </div>
                 </div>
             </div>
