@@ -18,7 +18,7 @@
 <body class="bg-black">
 
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/Banjo-Bob/config/constants.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/app/Banjo-Bob/config/constants.php');
     ?>
 
     <!-- Navbar Section Start -->
