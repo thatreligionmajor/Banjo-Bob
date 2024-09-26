@@ -1,7 +1,7 @@
 <!-- Image Marquee Start -->
 <div class="container-fluid bg-light rounded p-5 m-3">
             <div class="row">
-                <div class=" images col-10">
+                <div class=" images">
                     <div class="image-slide">
                         <div class="d-flex justify-content-start overflow-hidden">
                             <img src="../images/banjo-bob-1976.JPG" alt="Image 1" class="img-thumbnail">
