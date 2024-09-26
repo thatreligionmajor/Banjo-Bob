@@ -19,6 +19,7 @@
   }
 
 /* About */
+/* Image Marquee */
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -34,7 +35,7 @@
     position: relative;
 }
 
-.images:before, .logos:after {
+.images:before, .images:after {
     position: absolute;
     top: 0;
     width: 250px;
