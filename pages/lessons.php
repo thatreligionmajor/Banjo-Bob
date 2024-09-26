@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card border-light h-100 bg-light">
+                <div class="card border-light h-100 bg-white">
                     <div class="bg-success text-white p-3 mb-3 text-center rounded-top">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
                             <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2" />
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card border-light sh-100 bg-light">
+                <div class="card border-light sh-100 bg-white">
                     <div class="bg-success text-white p-3 mb-3 text-center rounded-top">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
                             <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2" />
