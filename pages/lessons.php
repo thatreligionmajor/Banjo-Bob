@@ -10,7 +10,7 @@
                 <img src="../images/banjo-bob-transparent.png" alt="Banjo Bob Playing the Banjo" class="img-fluid" />
             </div>
             <div class="h-100 p-5 col-7">
-                <h1 class="text-black">Banjo Lessons with Bob</h1>
+                <h1 class="text-black">Banjo Lessons with Bob in Parrish</h1>
                 <h5 class=" text-success">learn to play the banjo with a master</h5>
                 <hr class="my-4 text-black">
                 <p class="pb-3 text-black">
