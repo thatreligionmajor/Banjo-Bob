@@ -8,7 +8,7 @@
      <!-- Contact Information Start -->
      <div class="container-fluid bg-white rounded p-5 m-3">
             <div class="row">
-                <h2 class="p-5 text-center text-black">Contact Information</h2>            
+                <h2 class="p-5 text-center text-black">Text or Email to Get Started</h2>            
             </div>
             <div class="row">
                 <div class="col-2"></div>
@@ -17,7 +17,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill m-1" viewBox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
                         </svg>
-                        <h5>captainbanjobob@email.com</h5>
+                        <h5>captbanjobob57@email.com</h5>
                     </div>
                     <div class="list-group-item d-flex w-100 justify-content-center list-group-item-light list-group-item-action">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill m-1" viewBox="0 0 16 16">
